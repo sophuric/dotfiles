@@ -11,7 +11,7 @@
 
 
 ### Installation:
-1. Clone the repo: `git clone https://github.com/mekb-turtle/dotfiles`
+1. Clone the repo: `git clone https://github.com/sophuric/dotfiles`
 2. Run the following command to install the required packages with [Paru](https://github.com/Morganamilo/paru), or [you can install them manually, see the list below](#packages-to-install)
 
     -     paru -S hyprland hyprland-qtutils hyprpolkitagent waybar waybar-mpris-git wttrbar dunst kitty hyprlock hyprpaper libnotify glib2 grim slurp wl-clipboard hyprpicker imagemagick jq tesseract tesseract-data-eng zbar pipewire pipewire-alsa pipewire-audio pipewire-jack pipewire-pulse playerctl wireplumber xdg-desktop-portal xdg-desktop-portal-hyprland keepassxc openssh ttf-fira-code ttf-fira-mono ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-mono ttf-twemoji ttf-ubuntu-font-family catppuccin-gtk-theme-mocha papirus-folders-catppuccin-git catppuccin-cursors-mocha qt5ct qt6ct kvantum swayosd-git cliphist nemo mpv feh firefox gimp krita brightnessctl hypridle elogind rofi-wayland rofi-emoji darkly perl
@@ -30,10 +30,10 @@
 
 ### Packages to install:
 - `hyprland` `hyprland-qtutils` `hyprpolkitagent` `waybar` `waybar-mpris-git` `wttrbar` `dunst` `kitty` `hyprpaper` `libnotify` `glib2` `jq` `swayosd-git` `cliphist` `brightnessctl`
-- Screenshot util: `grim` `slurp` `wl-clipboard` `hyprpicker` `imagemagick` `jq` `tesseract` `zbar` https://github.com/mekb-turtle/foto
+- Screenshot util: `grim` `slurp` `wl-clipboard` `hyprpicker` `imagemagick` `jq` `tesseract` `zbar` https://github.com/sophuric/foto
   - Foto is available on the AUR as `foto` or `foto-git`
 - Audio and screensharing: `pipewire{,-alsa,-audio,-jack,-pulse}` `playerctl` `wireplumber` `xdg-desktop-portal{,-hyprland}`
-- For power menu: https://github.com/mekb-turtle/do/ (add your user to the `do` group)
+- For power menu: https://github.com/sophuric/do/ (add your user to the `do` group)
   - This tool is used to run power commands as root without password
   - To use it in your shell, run `\do shutdown` or `\do reboot`. You can also create aliases for these commands
 - Auto-start keepassxc: `keepassxc` `openssh` (ssh-agent)
@@ -45,4 +45,4 @@
   - Run `sed -i 's/-Dworkshop=true/-Dworkshop=false/' PKGBUILD` when building `gegl-git` to fix compilation errors
 - [`rofi-wayland`](https://github.com/lbonn/rofi) (wofi has lacking features) `rofi-emoji`
 
-Also check out my [neovim config](https://github.com/mekb-turtle/nvim)
+Also check out my [neovim config](https://github.com/sophuric/nvim)
