@@ -3,8 +3,8 @@ set -euo pipefail
 set -f
 IFS=$'\n'
 if PIDS="$(~/.bin/hypr-search-proc.pl waybar)"; then
-	kill -SIGUSR1 -- $PIDS
+    kill -SIGUSR1 -- $PIDS
 else
-	waybar &
-	disown
+    waybar &
+    disown
 fi

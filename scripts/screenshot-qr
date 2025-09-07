@@ -1,4 +1,4 @@
 #!/bin/bash
-wl-paste -t image/png > /tmp/copyimg || exit "$?"
-zbarimg /tmp/copyimg --raw > /tmp/copyimgdata
+wl-paste -t image/png >/tmp/copyimg || exit "$?"
+zbarimg /tmp/copyimg --raw >/tmp/copyimgdata
 kitty sh -c "nvim -R - < /tmp/copyimgdata"

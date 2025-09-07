@@ -1,3 +1,4 @@
 #!/bin/bash
 killall -q hyprpaper
-hyprpaper >/dev/null 2>/dev/null &disown
+hyprpaper >/dev/null 2>/dev/null &
+disown
