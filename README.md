@@ -1,5 +1,5 @@
 <h2 align="center">
-🚀 mekb's dot files<br/><br/>
+🚀 sophur's dot files<br/><br/>
 </h2>
 
 #### [Hyprland](https://hyprland.org/) with [Catppuccin](https://github.com/catppuccin). Uses [dotbot](https://github.com/anishathalye/dotbot).
